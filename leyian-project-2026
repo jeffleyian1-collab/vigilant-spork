@@ -103,7 +103,7 @@
             Welcome to my first website. I'm learning how to build websites with code.
         </p>
 
-        <a href="#" class="button">View My Work</a>
+        <<button class="button" onclick="showMessage()">View My Work</button>
     </section>
 
     <footer>
