@@ -91,7 +91,7 @@
         <nav>
             <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
             <a href="#">Contact</a>
         </nav>
     </header>
@@ -100,7 +100,29 @@
         <h2>Hello, I'm Leyian 👋</h2>
 
         <p>
-            Welcome to my first website. I'm learning how to build websites with code.
+          <section id="projects" class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>My First Website</h3>
+            <p>
+                This is my first website built using HTML, CSS and JavaScript.
+            </p>
+            <button>View Project</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Coming Soon</h3>
+            <p>
+                More projects will be added here as I continue learning.
+            </p>
+            <button>Coming Soon</button>
+        </div>
+
+    </div>
+</section>  Welcome to my first website. I'm learning how to build websites with code.
         </p>
 
         <<button class="button" onclick="showMessage()">View My Work</button>
